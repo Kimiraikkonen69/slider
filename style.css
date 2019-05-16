@@ -1,0 +1,60 @@
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 86px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.8;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slider {
+  width: 90%;
+}
+
+.slick-arrow {
+  font-size: 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  width: 40px;
+  height: 40px;
+  opacity: 0.5;
+  z-index: 1;
+  outline: none;
+  cursor: pointer;
+  background: url("media/left.png"), center;
+  background-size: cover;
+  border: none;
+}
+
+.slick-next {
+  right: 0;
+  background: url("media/right.png"), center;
+  background-size: cover;
+}
+
+.slick-arrow:hover {
+  opacity: 0.9;
+  transform: scale(1.2);
+}
+
+.slider .slide {
+  height: 400px;
+  width: 400px;
+}
+
+/*# sourceMappingURL=style.css.map */
